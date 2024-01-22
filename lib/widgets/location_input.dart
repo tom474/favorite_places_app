@@ -5,8 +5,8 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
 import 'package:http/http.dart' as http;
 
-import 'package:favorite_places/screens/map.dart';
-import 'package:favorite_places/models/place.dart';
+import 'package:favorite_places_app/screens/map.dart';
+import 'package:favorite_places_app/models/place.dart';
 
 class LocationInput extends StatefulWidget {
   const LocationInput({super.key, required this.onSelectLocation});
